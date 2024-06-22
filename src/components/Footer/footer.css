@@ -1,0 +1,229 @@
+#footer {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Noto;
+  src: url(../../assets/fonts/NotoSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: newton;
+  src: url(../../assets/fonts/BeVietnamPro-SemiBold.ttf);
+}
+
+.contento {
+  background-image: url(../../assets/Footground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+}
+.ovr img {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+.contento {
+  display: flex;
+  flex-direction: row;
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: left;
+  margin: 10% 0rem 8%;
+  align-items: flex-start;
+}
+
+.Links div {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 2.25% 5%;
+  line-height: 5px;
+  align-items: flex-start;
+}
+
+.title h1 {
+  color: white;
+  font-family: newton;
+  font-size: 300%;
+}
+
+.title h5 {
+  color: white;
+  margin: 5% 5% 4%;
+  letter-spacing: 0.05em;
+  font-size: 120%;
+  font-family: Exo;
+}
+
+.title p {
+  font-size: 115%;
+  letter-spacing: 0.05em;
+  color: white;
+  font-family: Exo;
+  margin: 3% 4% 1%;
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  margin: 2% 4%;
+  font-family: Exo;
+  font-size: 115%;
+}
+.Links div h1 {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Inria";
+}
+
+.Links div ul li p {
+  margin: 4% 0%;
+}
+
+.Links div ul li p a {
+  color: #fff;
+  font-family: "Exo";
+  font-weight: 600;
+  transition: transform 0.8;
+}
+.Links div ul li p a:hover {
+  color: rgb(224, 183, 165);
+}
+
+.Links ul {
+  position: relative;
+  margin-top: 5%;
+  right: 9%;
+}
+.paymopts {
+  width: 55%;
+  box-shadow: 217rem 69rem 7rem 9rem white inset;
+}
+@media (max-width: 767px) {
+  .contento {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position-x: -61rem;
+  }
+
+  .title h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .title {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: justify;
+  }
+
+  .title h5,
+  .title p,
+  .title a {
+    text-align: center;
+    font-size: 75%;
+  }
+
+  .Links {
+    flex-direction: column;
+    border-top: solid #fff;
+    align-items: center;
+    border-bottom: 3px solid #fff;
+  }
+
+  .Links div h1 {
+    text-align: center;
+  }
+  .Links div ul li p {
+    text-align: center;
+    line-height: 130%;
+  }
+
+  .Links ul li p a svg {
+    display: none;
+  }
+
+  .Links div ul li p a {
+    font-size: 81%;
+    line-height: 0px;
+  }
+
+  .paymopts {
+    width: 100%;
+  }
+}
+@media (min-width: 767.5px) and (max-width: 991px) {
+  .contento {
+    flex-direction: column;
+  }
+
+  .title {
+    align-items: center;
+    line-height: 0px;
+  }
+
+  .title h5,
+  .title p,
+  .title a {
+    line-height: 1.86rem;
+    margin: 0;
+  }
+
+  .Links {
+    background: #3f0d2e8c;
+    display: flex;
+    border-top: solid #fff 2px;
+    flex-direction: row;
+    column-gap: 2%;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .Links div {
+    margin: 0%;
+  }
+
+  .Links ul {
+    padding-left: 15.54%;
+  }
+
+  .Links div ul li p a {
+    font-size: 85%;
+  }
+
+  .Links div h1 {
+    font-size: 137%;
+  }
+
+  .PRODUCTS {
+    width: 30%;
+  }
+
+  .SERVICES {
+    width: 20%;
+  }
+
+  .HELP {
+    width: 28%;
+  }
+
+  .ABOUTUS {
+    padding-left: 6%;
+  }
+}

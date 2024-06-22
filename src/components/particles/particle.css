@@ -1,0 +1,6 @@
+.tsparticles,
+#Particles {
+  position: relative;
+  z-index: -12;
+}
+
